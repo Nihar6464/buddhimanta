@@ -15,7 +15,7 @@ function App() {
     <div className="min-h-screen bg-[#0f172a] text-white flex flex-col">
       <Header />
       <Routes>
-        <Route path='' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
