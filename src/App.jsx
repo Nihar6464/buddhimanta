@@ -20,9 +20,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/generate' element={<Generate />} />
-        <Route path='*' element={<NotFound />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
